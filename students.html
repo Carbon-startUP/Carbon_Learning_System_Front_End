@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>الطلاب</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body class="students-page">
+
+<div class="dashboard1">
+  <aside class="sidebar">
+    <div class="logo"><img src="img/logo.jpg" alt="Logo"></div>
+    <h2>Udemy Inter School</h2>
+    <div class="menu">
+      <a href="dashboard.html"><i class="fas fa-home"></i> DashBoard</a>
+      <a href="students.html" class="active"><i class="fas fa-user-graduate"></i> الطلاب</a>
+      <a href="teachers.html"><i class="fas fa-chalkboard-teacher"></i> المعلمين والموظفين</a>
+      <a href="registration.html"><i class="fas fa-file-signature"></i> تسجيل و القبول</a>
+      <a href="student-data.html"><i class="fas fa-address-book"></i> بيانات القيد</a>
+      <a href="student-classes.html"><i class="fas fa-chalkboard"></i> الفصول الدراسيه</a>
+      <a href="student-results.html"><i class="fas fa-clipboard-list"></i> النتائج و الاختبارات</a>
+      <a href="settings.html"><i class="fas fa-cog"></i> الاعدادات</a>
+    </div>
+  </aside>
+
+  <main class="content">
+    <div class="top-bar">
+      <button class="btn pink">➕ إضافة طالب</button>
+      <button class="btn purple">📥 إستخراج البيانات</button>
+    </div>
+
+    <div class="search-box">
+      <input type="text" placeholder="ابحث عن طالب بالاسم أو البريد">
+    </div>
+
+    <div class="table-container">
+      <table>
+        <thead>
+          <tr>
+            <th>الاسم</th>
+            <th>ID الطالب</th>
+            <th>الفصل</th>
+            <th>الإيميل</th>
+            <th>الجنس</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>
+              <div class="student-info">
+                <img src="img/logo.jpg" alt="Kristin" class="student-thumb">
+                <a href="#" data-id="703703">Kristin Watson</a>
+              </div>
+            </td>
+            <td>703703</td>
+            <td>JSS 2</td>
+            <td>michelle.rivera@example.com</td>
+            <td>Female</td>
+          </tr>
+          <tr>
+            <td>
+              <div class="student-info">
+                <img src="img/logo.jpg" alt="Jane" class="student-thumb">
+                <a href="#" data-id="703799">Jane Cooper</a>
+              </div>
+            </td>
+            <td>703799</td>
+            <td>SS 1</td>
+            <td>jane.cooper@example.com</td>
+            <td>Female</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </main>
+</div>
+
+<div class="mobile-menu-icon" onclick="toggleSidebar()"> 
+  <i class="fas fa-bars"></i> 
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>

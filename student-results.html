@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>مواعيد الإختبارات والنتائج</title>
+
+  <!-- Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+  <!-- JS -->
+  <script src="script.js"></script>
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="dashboard1">
+  <!-- Sidebar -->
+  <aside class="sidebar">
+    <div class="logo">
+      <img src="img/logo.jpg" alt="Logo">
+    </div>
+    <h2>Udemy Inter School</h2>
+  <div class="menu">
+  <a href="dashboard.html"><i class="fas fa-home"></i> DashBoard</a>
+  <a href="students.html"><i class="fas fa-user-graduate"></i> الطالب</a>
+  <a href="teachers.html"><i class="fas fa-chalkboard-teacher"></i> المعلمين والموظفين</a>
+  <a href="registration.html"><i class="fas fa-file-signature"></i> تسجيل و القبول</a>
+  <a href="student-data.html"><i class="fas fa-address-book"></i> بيانات القيد</a>
+  <a href="student-classes.html"><i class="fas fa-chalkboard"></i> الفصول الدراسيه</a>
+  <a href="student-results.html" class="active"><i class="fas fa-clipboard-list"></i> النتائج و الاختبارات</a>
+  <a href="settings.html"><i class="fas fa-cog"></i> الاعدادات</a>
+</div>
+  </aside>
+
+  <!-- Main content -->
+  <div class="main">
+    <h1>مواعيد الإختبارات والنتائج</h1>
+
+    <!-- Box النتائج -->
+    <div class="box-container group">
+      <h3>إرفاق نتيجة الإختبار</h3>
+      <div class="results">
+        <div class="card">عربي<br>0/0</div>
+        <div class="card">لغة انجليزية<br>0/0</div>
+        <div class="action">
+          <div id="uploadBtn">
+            <i class="fas fa-upload"></i>
+            <span>Upload File</span>
+          </div>
+          <div id="addTextBtn">
+            <i class="fas fa-keyboard"></i>
+            <span>Add Text</span>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Box مواعيد الامتحانات -->
+    <div class="exams group">
+      <h3>مواعيد الإختبارات</h3>
+
+      <!-- مجموعة اختبار الشهر -->
+      <div class="exam-group">
+        <h4>اختبار الشهر</h4>
+        <div class="exam-dates">
+          <div class="date-card">عربي<br>2/4/2026</div>
+          <div class="date-card">لغة انجليزية<br>3/4/2026</div>
+          <div class="date-card">دين<br>3/4/2026</div>
+          <div class="date-card">حساب<br>4/4/2026</div>
+          <div class="date-card">تكنولوجيا<br>4/4/2026</div>
+        </div>
+      </div>
+
+      <!-- مجموعة اختبار الترم -->
+      <div class="exam-group">
+        <h4>اختبار الترم</h4>
+        <div class="exam-dates">
+          <div class="date-card">عربي<br>2/5/2026</div>
+          <div class="date-card">لغة انجليزية<br>3/5/2026</div>
+          <div class="date-card">دين<br>3/5/2026</div>
+          <div class="date-card">حساب<br>4/5/2026</div>
+          <div class="date-card">تكنولوجيا<br>4/5/2026</div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Hidden file input -->
+  <input type="file" id="fileInput" style="display:none" />
+
+</body>
+</html>

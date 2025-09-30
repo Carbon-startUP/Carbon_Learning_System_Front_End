@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>الفصول الدراسية</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+  <div class="dashboard1">
+    <!-- Sidebar -->
+    <aside class="sidebar">
+      <div class="logo">
+        <img src="img/logo.jpg" alt="Logo">
+      </div>
+      <h2>Udemy Inter School</h2>
+      <div class="menu">
+        <a href="dashboard.html"><i class="fas fa-home"></i> DashBoard</a>
+        <a href="students.html"><i class="fas fa-user-graduate"></i> الطالب</a>
+        <a href="teachers.html"><i class="fas fa-chalkboard-teacher"></i> المعلمين والموظفين</a>
+        <a href="registration.html"><i class="fas fa-file-signature"></i> تسجيل و القبول</a>
+        <a href="student-data.html"><i class="fas fa-address-book"></i> بيانات القيد</a>
+        <a href="student-classes.html" class="active"><i class="fas fa-chalkboard"></i> الفصول الدراسيه</a>
+        <a href="student-results.html"><i class="fas fa-clipboard-list"></i> النتائج و الاختبارات</a>
+        <a href="settings.html"><i class="fas fa-cog"></i> الاعدادات</a>
+      </div>
+    </aside>
+     <h1 style="text-align: center;" class="page-title">الفصول الدراسية</h1>
+  <!-- Card: المرحلة الإبتدائية -->
+    <section class="stage-card">
+      <button class="edit-btn" aria-label="تعديل">
+        <!-- simple pencil svg -->
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" aria-hidden>
+          <path d="M3 17.25V21h3.75L17.81 9.94l-3.75-3.75L3 17.25z" stroke="black" stroke-width="0.8" fill="black" opacity="0.9"/>
+          <path d="M20.71 7.04a1 1 0 0 0 0-1.41l-2.34-2.34a1 1 0 0 0-1.41 0l-1.83 1.83 3.75 3.75 1.83-1.83z" stroke="black" stroke-width="0.8" fill="black" opacity="0.9"/>
+        </svg>
+      </button>
+<div class="stage-container">
+      <h2 class="stage-title">المرحلة الإبتدائية</h2>
+
+      <div class="grades-row">
+        <!-- Column: الصف الرابع -->
+        <div class="grade-col">
+          <h3 class="grade-title">الصف الرابع</h3>
+          <div class="mini-table">
+            <div class="mt-row">
+              <div class="mt-cell head">المادة</div>
+              <div class="mt-cell head">المدة</div>
+              <div class="mt-cell head">المجموع</div>
+            </div>
+            <div class="mt-row">
+              <div class="mt-cell">لغة عربية</div>
+              <div class="mt-cell">90 دقيقة</div>
+              <div class="mt-cell">20 ساعة</div>
+            </div>
+            <div class="mt-row">
+              <div class="mt-cell">دين</div>
+              <div class="mt-cell">30 دقيقة</div>
+              <div class="mt-cell">6 ساعات</div>
+            </div>
+            <div class="mt-row">
+              <div class="mt-cell">رياضيات</div>
+              <div class="mt-cell">60 دقيقة</div>
+              <div class="mt-cell">16 ساعة</div>
+            </div>
+            <div class="mt-row">
+              <div class="mt-cell">علوم</div>
+              <div class="mt-cell">30 دقيقة</div>
+              <div class="mt-cell">8 ساعات</div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Column: الصف الخامس -->
+        <div class="grade-col">
+          <h3 class="grade-title">الصف الخامس</h3>
+          <div class="mini-table">
+            <div class="mt-row">
+              <div class="mt-cell head">المادة</div>
+              <div class="mt-cell head">المدة</div>
+              <div class="mt-cell head">المجموع</div>
+            </div>
+            <div class="mt-row">
+              <div class="mt-cell">لغة عربية</div>
+              <div class="mt-cell">90 دقيقة</div>
+              <div class="mt-cell">20 ساعة</div>
+            </div>
+            <div class="mt-row">
+              <div class="mt-cell">لغة أجنبية أولى</div>
+              <div class="mt-cell">60 دقيقة</div>
+              <div class="mt-cell">12 ساعة</div>
+            </div>
+            <div class="mt-row">
+              <div class="mt-cell">تكنولوجيا</div>
+              <div class="mt-cell">30 دقيقة</div>
+              <div class="mt-cell">5 ساعات</div>
+            </div>
+            <div class="mt-row">
+              <div class="mt-cell">دراسات اجتماعية</div>
+              <div class="mt-cell">45 دقيقة</div>
+              <div class="mt-cell">10 ساعات</div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Column: الصف السادس -->
+        <div class="grade-col">
+          <h3 class="grade-title">الصف السادس</h3>
+          <div class="mini-table">
+            <div class="mt-row">
+              <div class="mt-cell head">المادة</div>
+              <div class="mt-cell head">المدة</div>
+              <div class="mt-cell head">المجموع</div>
+            </div>
+            <div class="mt-row">
+              <div class="mt-cell">لغة عربية</div>
+              <div class="mt-cell">90 دقيقة</div>
+              <div class="mt-cell">20 ساعة</div>
+            </div>
+            <div class="mt-row">
+              <div class="mt-cell">رياضيات</div>
+              <div class="mt-cell">60 دقيقة</div>
+              <div class="mt-cell">16 ساعة</div>
+            </div>
+            <div class="mt-row">
+              <div class="mt-cell">علوم</div>
+              <div class="mt-cell">30 دقيقة</div>
+              <div class="mt-cell">8 ساعات</div>
+            </div>
+            <div class="mt-row">
+                <div class="mt-cell">تكنولوجيا</div>
+              <div class="mt-cell">30 دقيقة</div>
+              <div class="mt-cell">5 ساعات</div>
+            </div>
+          </div>
+        </div>
+      </div>
+      </div>
+    </section>
+    <!-- Card: المرحلة الإعدادية -->
+    <section class="stage-card">
+      <button class="edit-btn" aria-label="تعديل">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" aria-hidden>
+          <path d="M3 17.25V21h3.75L17.81 9.94l-3.75-3.75L3 17.25z" stroke="black" stroke-width="0.8" fill="black" opacity="0.9"/>
+          <path d="M20.71 7.04a1 1 0 0 0 0-1.41l-2.34-2.34a1 1 0 0 0-1.41 0l-1.83 1.83 3.75 3.75 1.83-1.83z" stroke="black" stroke-width="0.8" fill="black" opacity="0.9"/>
+        </svg>
+      </button>
+      <div class="stage-container">
+      <h2 class="stage-title">المرحلة الإعدادية</h2>
+
+      <div class="grades-row">
+        <div class="grade-col">
+          <h3 class="grade-title">الصف الأول</h3>
+          <div class="mini-table">
+            <div class="mt-row">
+              <div class="mt-cell head">المادة</div><div class="mt-cell head">المدة</div><div class="mt-cell head">المجموع</div>
+            </div>
+            <div class="mt-row"><div class="mt-cell">لغة عربية</div><div class="mt-cell">90 دقيقة</div><div class="mt-cell">20 ساعة</div></div>
+            <div class="mt-row"><div class="mt-cell">رياضيات</div><div class="mt-cell">60 دقيقة</div><div class="mt-cell">16 ساعة</div></div>
+            <div class="mt-row"><div class="mt-cell">علوم</div><div class="mt-cell">30 دقيقة</div><div class="mt-cell">8 ساعات</div></div>
+            <div class="mt-row"><div class="mt-cell">دراسات اجتماعية</div><div class="mt-cell">45 دقيقة</div><div class="mt-cell">10 ساعات</div></div>
+          </div>
+        </div>
+
+        <div class="grade-col">
+          <h3 class="grade-title">الصف الثاني</h3>
+          <div class="mini-table">
+            <div class="mt-row"><div class="mt-cell head">المادة</div><div class="mt-cell head">المدة</div><div class="mt-cell head">المجموع</div></div>
+            <div class="mt-row"><div class="mt-cell">لغة عربية</div><div class="mt-cell">90 دقيقة</div><div class="mt-cell">20 ساعة</div></div>
+            <div class="mt-row"><div class="mt-cell">لغة أجنبية</div><div class="mt-cell">60 دقيقة</div><div class="mt-cell">12 ساعة</div></div>
+            <div class="mt-row"><div class="mt-cell">رياضيات</div><div class="mt-cell">60 دقيقة</div><div class="mt-cell">16 ساعة</div></div>
+            <div class="mt-row"><div class="mt-cell">تربية دينية</div><div class="mt-cell">30 دقيقة</div><div class="mt-cell">6 ساعات</div></div>
+          </div>
+        </div>
+
+        <div class="grade-col">
+          <h3 class="grade-title">الصف الثالث</h3>
+          <div class="mini-table">
+            <div class="mt-row"><div class="mt-cell head">المادة</div><div class="mt-cell head">المدة</div><div class="mt-cell head">المجموع</div></div>
+            <div class="mt-row"><div class="mt-cell">لغة عربية</div><div class="mt-cell">90 دقيقة</div><div class="mt-cell">20 ساعة</div></div>
+            <div class="mt-row"><div class="mt-cell">رياضيات</div><div class="mt-cell">60 دقيقة</div><div class="mt-cell">16 ساعة</div></div>
+            <div class="mt-row"><div class="mt-cell">علوم</div><div class="mt-cell">30 دقيقة</div><div class="mt-cell">8 ساعات</div></div>
+            <div class="mt-row"><div class="mt-cell">تكنولوجيا</div><div class="mt-cell">30 دقيقة</div><div class="mt-cell">5 ساعات</div></div>
+          </div>
+        </div>
+      </div>
+    </section>
+    </div>
+  </div>
+  <!-- Card: المرحلة الثانوية -->
+    <section class="stage-card">
+      <button class="edit-btn" aria-label="تعديل">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" aria-hidden>
+          <path d="M3 17.25V21h3.75L17.81 9.94l-3.75-3.75L3 17.25z" stroke="black" stroke-width="0.8" fill="black" opacity="0.9"/>
+          <path d="M20.71 7.04a1 1 0 0 0 0-1.41l-2.34-2.34a1 1 0 0 0-1.41 0l-1.83 1.83 3.75 3.75 1.83-1.83z" stroke="black" stroke-width="0.8" fill="black" opacity="0.9"/>
+        </svg>
+      </button>
+
+      <h2 class="stage-title">المرحلة الثانوية</h2>
+
+      <div class="grades-row">
+        <div class="grade-col">
+          <h3 class="grade-title">الصف الأول</h3>
+          <div class="mini-table">
+            <div class="mt-row"><div class="mt-cell head">المادة</div><div class="mt-cell head">المدة</div><div class="mt-cell head">المجموع</div></div>
+            <div class="mt-row"><div class="mt-cell">لغة عربية</div><div class="mt-cell">90 دقيقة</div><div class="mt-cell">20 ساعة</div></div>
+            <div class="mt-row"><div class="mt-cell">رياضيات</div><div class="mt-cell">60 دقيقة</div><div class="mt-cell">16 ساعة</div></div>
+            <div class="mt-row"><div class="mt-cell">تاريخ</div><div class="mt-cell">45 دقيقة</div><div class="mt-cell">10 ساعات</div></div>
+            <div class="mt-row"><div class="mt-cell">جغرافيا</div><div class="mt-cell">45 دقيقة</div><div class="mt-cell">8 ساعات</div></div>
+          </div>
+        </div>
+
+        <div class="grade-col">
+          <h3 class="grade-title">الصف الثاني</h3>
+          <div class="mini-table">
+            <div class="mt-row"><div class="mt-cell head">المادة</div><div class="mt-cell head">المدة</div><div class="mt-cell head">المجموع</div></div>
+            <div class="mt-row"><div class="mt-cell">لغة عربية</div><div class="mt-cell">90 دقيقة</div><div class="mt-cell">20 ساعة</div></div>
+            <div class="mt-row"><div class="mt-cell">فيزياء</div><div class="mt-cell">60 دقيقة</div><div class="mt-cell">14 ساعة</div></div>
+            <div class="mt-row"><div class="mt-cell">كيمياء</div><div class="mt-cell">60 دقيقة</div><div class="mt-cell">14 ساعة</div></div>
+            <div class="mt-row"><div class="mt-cell">أحياء</div><div class="mt-cell">45 دقيقة</div><div class="mt-cell">9 ساعات</div></div>
+          </div>
+        </div>
+
+        <div class="grade-col">
+          <h3 class="grade-title">الصف الثالث</h3>
+          <div class="mini-table">
+            <div class="mt-row"><div class="mt-cell head">المادة</div><div class="mt-cell head">المدة</div><div class="mt-cell head">المجموع</div></div>
+            <div class="mt-row"><div class="mt-cell">لغة عربية</div><div class="mt-cell">90 دقيقة</div><div class="mt-cell">20 ساعة</div></div>
+            <div class="mt-row"><div class="mt-cell">رياضيات</div><div class="mt-cell">60 دقيقة</div><div class="mt-cell">16 ساعة</div></div>
+            <div class="mt-row"><div class="mt-cell">كهرباء/ديناميكا</div><div class="mt-cell">60 دقيقة</div><div class="mt-cell">12 ساعة</div></div>
+            <div class="mt-row"><div class="mt-cell">دراسات اجتماعية</div><div class="mt-cell">45 دقيقة</div><div class="mt-cell">7 ساعات</div></div>
+          </div>
+        </div>
+      </div>
+    </section>
+</body>
+</html>
